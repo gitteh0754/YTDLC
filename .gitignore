@@ -1,0 +1,7 @@
+# Pyinstaller Files
+build/
+dist/
+cli.spec
+
+# Added manually in builds :D
+cli/ffmpeg.exe
