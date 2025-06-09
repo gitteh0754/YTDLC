@@ -20,3 +20,11 @@ So, after you enter this command, the CLI does some black magic using FFMPEG and
 <br/>
 
 Yeah. That's all there is to it.
+
+## Installation
+
+First, get the installer **(windows only)** from the [GitHub repository](https://github.com/gitteh0754/YTDLC/releases) (sorry for those of you on CodeBerg), and run it.
+
+Then, refresh your path variable.
+
+Finally, profit.
