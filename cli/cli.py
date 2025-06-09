@@ -50,9 +50,7 @@ def download(link, mediatype):
                     os.remove(final_output)
                 elif out == "n":
                     pass
-            print("Exists {}: {}".format(video_file, os.path.exists(video_file)))
-            print("Exists {}: {}".format(audio_file, os.path.exists(audio_file)))
-            print("Exists {}: {}".format(FFMPEG_BIN, os.path.exists(FFMPEG_BIN)))
+        
             subprocess.call(command, stdout=open(os.devnull, "wb"), stderr=open(os.devnull, 'wb'))
             
             if os.path.exists(final_output):
